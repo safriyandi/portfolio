@@ -2,7 +2,7 @@ import React, { useRef } from 'react';
 // import { Document, Page, pdfjs } from 'react-pdf';
 // import resume from '../../images/resume.pdf';  --The pdf format is not loading
 // pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudfare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
-import resume from '../../images/resume.doc'
+import resume from '../../images/resume.pdf'
 const Header = () => { 
   // const headerRef = useRef(null); -  this is for sticky navbar
 
@@ -33,10 +33,10 @@ const Header = () => {
           {/* logo start */}
           <div className='flex itmes-center gap-[10px]'>
             <span className='w-[35px] h-[35px] mt-2 bg-white text-black text-[18px] font-[500]
-            rounded-full flex items-center justify-center'><b>HI</b></span>
+            rounded-full flex items-center justify-center'><b>SY</b></span>
 
             <div className='leading-[20px]'>
-              <h2 className='text-xl text-white font-[700]'>Hasan Iqbal</h2>
+              <h2 className='text-xl text-white font-[700]'>Safri Yandi</h2>
               <p className='text-white text-[14px] mb-1 font-[500]'>Portfolio</p>
             </div>
           </div>

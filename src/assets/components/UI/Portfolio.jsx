@@ -22,12 +22,12 @@ const Portfolio = () => {
         if (selectTab === 'all') {
             setPortfolios(data);
         }
-        if (selectTab === 'web-design') {
-            const filteredData = data.filter(item => item.category === 'Web Design')
+        if (selectTab === 'Product Manager') {
+            const filteredData = data.filter(item => item.category === 'Product Manager')
             setPortfolios(filteredData);
         }
-        if (selectTab === 'ux-design') {
-            const filteredData = data.filter(item => item.category === 'Ux')
+        if (selectTab === 'QA Engineer') {
+            const filteredData = data.filter(item => item.category === 'QA Engineer')
             setPortfolios(filteredData);
         }
     }, [selectTab])
@@ -48,13 +48,13 @@ const Portfolio = () => {
                     ease-in duration-100 py-2 px-4 rounded-[8px]'>
                             All
                         </button>
-                        <button onClick={() => setSelectTab('web-design')} className='bg-smallTextColor bg-black text-white font-[500] gap-2 hover:bg-smallTextColor
+                        <button onClick={() => setSelectTab('Product Manager')} className='bg-smallTextColor bg-black text-white font-[500] gap-2 hover:bg-smallTextColor
                     ease-in duration-100 py-2 px-4 rounded-[8px]'>
-                            Full Stack
+                            Product Manager
                         </button>
-                        <button onClick={() => setSelectTab('ux-design')} className='bg-smallTextColor bg-black text-white font-[500] gap-2 hover:bg-smallTextColor
+                        <button onClick={() => setSelectTab('QA Engineer')} className='bg-smallTextColor bg-black text-white font-[500] gap-2 hover:bg-smallTextColor
                     ease-in duration-100 py-2 px-4 rounded-[8px]'>
-                            UI/UX
+                            QA Engeineer
                         </button>
                     </div>
                 </div>

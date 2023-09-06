@@ -3,10 +3,10 @@ import React from 'react';
 import backendImg from '../../images/backend.png';
 // import uiImg from '../../images/design.png';
 // import appsImg from '../../images/apps.png';
-import java from '../../images/java.svg';
-import html from '../../images/html.svg';
-import javascript from '../../images/javascript.svg';
-import react from '../../images/react.svg';
+import java from '../../images/pm.jpg';
+import html from '../../images/sql.png';
+import javascript from '../../images/jmeter.png';
+import react from '../../images/postman.png';
 import pyImage from '../../images/pyImage.png';
 
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -61,7 +61,7 @@ const Services = () => {
                                         
                                             <div data-aos='fade-right' data-aos-duration='1200' className=' p-4 bg-white rounded group shadow 
                                         cursor-pointer ease-in duration-150'>
-                                            <h3 className='flex items-center text-[20px]'><img className='h-[40px] w-[40px] items-center ml-16 mr-7' src={java}></img>Java</h3>
+                                            <h3 className='flex items-center text-[25px]'><img className='h-[40px] w-[40px] items-center ml-13 mr-7' src={java}></img>Product Management</h3>
                                                  {/* <h3 className='text-primaryColor font-[700] text-center mt-3 mb-3 group-hover:text-white group-hover:font[600] text-xl'> */}
                                                     {/* Java */}
                                                     {/* <FontAwesomeIcon icon="fa-brands fa-java" /></h3> */}
@@ -85,7 +85,7 @@ const Services = () => {
                                         <div className='w-full sm:w-1/2 sm:pl-8'>
                                             <div data-aos='fade-left' data-aos-duration='1200' className='bg-white p-4 rounded group shadow 
                                         cursor-pointer ease-in duration-150'>
-                                                 <h3 className='flex items-center text-[20px] '><img className='h-[40px] w-[40px] items-center ml-10 mr-5' src={html}></img>HTML & CSS</h3>
+                                                 <h3 className='flex items-center text-[25px] '><img className='h-[40px] w-[40px] items-center ml-5 mr-5' src={html}></img>SQL Injection</h3>
                                             </div>
                                         </div>
                                     </div>
@@ -104,7 +104,7 @@ const Services = () => {
                                         <div className='w-full sm:w-1/2 sm:pr-8'>
                                             <div data-aos='fade-right' data-aos-duration='1200' className='bg-white p-4 rounded group shadow 
                                         cursor-pointer ease-in duration-150'>
-                                                 <h3 className='flex items-center text-[20px] '><img className='h-[40px] w-[40px] items-center ml-12 mr-5' src={javascript}></img>Javascript</h3>
+                                                 <h3 className='flex items-center text-[25px] '><img className='h-[40px] w-[40px] items-center ml-13 mr-7' src={javascript}></img>Penetration Testing</h3>
                                                  {/* <h3 className='text-primaryColor font-[700] text-center mt-3 mb-3 group-hover:text-white group-hover:font[600] text-xl'> */}
                                                     {/* Java */}
                                                     {/* <i class="ri-javascript-fill"></i></h3> */}
@@ -126,7 +126,7 @@ const Services = () => {
                                         <div className='w-full sm:w-1/2 sm:pl-8'>
                                             <div data-aos='fade-left' data-aos-duration='1200' className='bg-white p-4 rounded group shadow 
                                         cursor-pointer ease-in duration-150'>
-                                                 <h3 className='flex items-center text-[20px] '><img className='h-[40px] w-[40px] items-center ml-14 mr-5' src={react}></img>ReactJs</h3>
+                                                 <h3 className='flex items-center text-[25px] '><img className='h-[40px] w-[40px] items-center ml-5 mr-5' src={react}></img>API Testing</h3>
                                             </div>
                                         </div>
                                     </div>
@@ -144,7 +144,7 @@ const Services = () => {
                                         <div className='w-full sm:w-1/2 sm:pr-8'>
                                             <div data-aos='fade-right' data-aos-duration='1200' className='bg-white p-4 rounded group shadow 
                                         cursor-pointer ease-in duration-150'>
-                                                 <h3 className='flex items-center text-[20px] group-hover:'><img className='h-[40px] w-[40px] items-center ml-14 mr-5' src={pyImage}></img>Python</h3>
+                                                 <h3 className='flex items-center text-[25px] group-hover:'><img className='h-[40px] w-[40px] items-center ml-13 mr-7' src={pyImage}></img>Automation</h3>
                                             </div>
                                         </div>
                                     </div>
