@@ -2,7 +2,7 @@ import React, { useRef } from 'react';
 // import { Document, Page, pdfjs } from 'react-pdf';
 // import resume from '../../images/resume.pdf';  --The pdf format is not loading
 // pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudfare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
-import resume from '../../images/resume.pdf'
+// import resume from '../../images/resume.pdf'
 const Header = () => { 
   // const headerRef = useRef(null); -  this is for sticky navbar
 
