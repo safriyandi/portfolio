@@ -2,7 +2,7 @@ import React from 'react';
 // import heroImg from '../../images/hero.svg';
 // import frontimageImg from '../../images/frontimage.svg';
 import pp from '../../images/pp.jpg';
-import ppp from '../../images/yndi.jpg';
+import ppp from '../../images/ynd.png';
 // import nodedotjsImg from '../../images/nextdotjs.svg';
 
 import pmm from '../../images/pmm.png';
