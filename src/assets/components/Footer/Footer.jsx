@@ -36,9 +36,7 @@ const Footer = () => {
               <span className='w-[40px] h-[40px]  mt-8 bg-[#2b2d33] p-1 rounded-[50px] cursor-pointer text-center'>
                 <a href='https://instagram.com/sfrynd' className='text-gray-font-[500] text-[25px]'><i class="ri-instagram-line"></i></a>
               </span>
-              {/* <span className='w-[40px] h-[40px]  mt-8 bg-[#2b2d33] p-1 rounded-[50px] cursor-pointer text-center'>
-                <a href='https://github.com/Rooney9999' className='text-gray-300 font-[500] text-[25px]'><i class='ri-github-line'></i></a>
-              </span> */}
+          
               <span className='w-[40px] h-[40px]  mt-8 bg-[#2b2d33] p-1 rounded-[50px] cursor-pointer text-center'>
                 <a href='https://www.linkedin.com/in/safri-yandi-53ba911a5/' className='text-gray-300 font-[500] text-[25px]'><i class="ri-linkedlin-box-line"></i></a>
               </span>
