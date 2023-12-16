@@ -14,7 +14,7 @@ import CountUp from 'react-countup';
 
 
 const Hero = () => {
-    const [title, setTitle]= React.useState("safri yandi");
+    const [title, setTitle]= React.useState("Safri Yandi");
     React.useEffect(()=>{
            
             setTitle(document.title=title);
@@ -44,13 +44,14 @@ const Hero = () => {
 
                         <p data-aos='fade-left' data-aos-duration='1500' className='flex gap-2 text-headingColor mt-12 font-[500] text-[15px] leading-7 sm:pl-14 sm:pr-10'>
                             <span class='ri-apps-2-line'></span>
-                            <b>I am a Student from Information System at Indonesia Open University, also I am a hard 
+                            <b>Saya seorang Mahasiswa Sistem Informasi di Universitas Terbuka. saya seorang pekerja keras dan bersungguh-sungguh dalam tantangan pekerjaan. Saya memiliki motivasi yang kuat dan terbiasa untuk berkomunikasi dengan semua orang. Saya juga cepat untuk belajar hal baru, cepat beradaptasi, menerima perbedaan dan bisa bekerja tim dengan baik </b>
+                            {/* <b>I am a Student from Information System at Indonesia Open University, also I am a hard 
                                 worker and enthusiastic about challenging work. I have strong personal motivation and able 
                                 to communicate with all people levels. I am quick learning new things, adaptable to new 
-                                environments and open toward differences, and love working as a team.</b>
+                                environments and open toward differences, and love working as a team.</b> */}
                         </p>
                         <div className='flex items-center gap-9 mt-14'>
-                            <span className='text-smallTextColor text-[20px] font-[600]'>Find me on</span>
+                            <span className='text-smallTextColor text-[20px] font-[600]'>Kenali saya lebih dalam</span>
                             <span><a title='instagram' target='_blank' href='https://instagram.com/sfrynd' className='text-smallTextColor text-[25px] font-[600]'><i class="ri-instagram-fill"></i></a></span>
                             <span><a title='LinkedIn' target='_blank' href='https://www.linkedin.com/in/safri-yandi-53ba911a5/' className='text-smallTextColor text-[25px] font-[600]'><i class='ri-linkedin-box-fill'></i></a></span>
                         </div>

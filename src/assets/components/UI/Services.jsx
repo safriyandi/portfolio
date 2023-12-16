@@ -62,7 +62,7 @@ const Services = () => {
                                         
                                             <div data-aos='fade-right' data-aos-duration='1200' className=' p-4 bg-white rounded group shadow 
                                         cursor-pointer ease-in duration-150'>
-                                            <h3 className='flex items-center text-[20px]'><img className='h-[40px] w-[40px] items-center ml-13 mr-7' src={java}></img>Product Management</h3>
+                                            <h3 className='flex items-center text-[20px]'><img className='h-[40px] w-[40px] items-center ml-13 mr-7' src={java}></img>Product Research</h3>
                                                  {/* <h3 className='text-primaryColor font-[700] text-center mt-3 mb-3 group-hover:text-white group-hover:font[600] text-xl'> */}
                                                     {/* Java */}
                                                     {/* <FontAwesomeIcon icon="fa-brands fa-java" /></h3> */}
@@ -127,7 +127,7 @@ const Services = () => {
                                         <div className='w-full sm:w-1/2 sm:pl-8'>
                                             <div data-aos='fade-left' data-aos-duration='1200' className='bg-white p-4 rounded group shadow 
                                         cursor-pointer ease-in duration-150'>
-                                                 <h3 className='flex items-center text-[20px] '><img className='h-[40px] w-[40px] items-center ml-1 mr-5' src={react}></img>Manual API Testing</h3>
+                                                 <h3 className='flex items-center text-[20px] '><img className='h-[40px] w-[40px] items-center ml-1 mr-5' src={react}></img>API Testing</h3>
                                             </div>
                                         </div>
                                     </div>
@@ -145,7 +145,7 @@ const Services = () => {
                                         <div className='w-full sm:w-1/2 sm:pr-8'>
                                             <div data-aos='fade-right' data-aos-duration='1200' className='bg-white p-4 rounded group shadow 
                                         cursor-pointer ease-in duration-150'>
-                                                 <h3 className='flex items-center text-[20px] group-hover:'><img className='h-[40px] w-[40px] items-center ml-13 mr-7' src={pyImage}></img>Automation Website & Mobile</h3>
+                                                 <h3 className='flex items-center text-[20px] group-hover:'><img className='h-[40px] w-[40px] items-center ml-13 mr-7' src={pyImage}></img>Automation Testing</h3>
                                             </div>
                                         </div>
                                     </div>
@@ -163,7 +163,7 @@ const Services = () => {
                                         <div className='w-full sm:w-1/2 sm:pl-8'>
                                             <div data-aos='fade-left' data-aos-duration='1200' className='bg-white p-4 rounded group shadow 
                                         cursor-pointer ease-in duration-150'>
-                                                 <h3 className='flex items-center text-[20px] '><img className='h-[40px] w-[40px] items-center ml-1 mr-5' src={manual}></img>Manual Testing Website & Mobile</h3>
+                                                 <h3 className='flex items-center text-[20px] '><img className='h-[40px] w-[40px] items-center ml-1 mr-5' src={manual}></img>Manual Testing</h3>
                                             </div>
                                         </div>
                                     </div>

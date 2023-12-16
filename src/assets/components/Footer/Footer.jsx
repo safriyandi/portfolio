@@ -9,7 +9,7 @@ const Footer = () => {
         <div className='sm:flex items-center justify-between md:gap-8'>
           <div className='w-full sm:w-1/2'>
             <h2 className='text-[26px] leading-10 mb-6 text-white font-[600] md:text-[2rem]'>
-              Want to give me an opportunity?
+              Ingin menawarkan peluang untuk saya?
             </h2>
             <a href='#contact'>
             <button className='flex items-center gap-2 text-white font-[600] border border-solid
@@ -25,20 +25,21 @@ const Footer = () => {
 
           <div className='w-full sm:w-1/2'>
             <p className='text-gray-300 leading-7 mt-4 sm:mt-0 text-[20px]'>
-              "Saya bukanlah Orang hebat yang tahu segalanya, tetapi saya memiliki kemauan untuk belajar dan memecahkan masalah yang sulit."
+              "Saya bukanlah Orang hebat yang tahu segalanya, tetapi saya memiliki kemauan untuk belajar dan memecahkan masalah yang sulit karna kata pepatah bahwa,
+              Ilmu yang hebat terdapat dari pengalaman yang kuat"
             </p>
 
             <div className='flex items-center gap-4 flex-wrap md:gap-8'>
               <span className='text-gray-300 mt-8 font-[600] text-[20px]'>
-                Find me on
+                Kenali saya lebih dalam
               </span>
 
               <span className='w-[40px] h-[40px]  mt-8 bg-[#2b2d33] p-1 rounded-[50px] cursor-pointer text-center'>
-                <a href='https://instagram.com/sfrynd' className='text-gray-font-[500] text-[25px]'><i class="ri-instagram-line"></i></a>
+                <a href='https://instagram.com/sfrynd' className='text-gray-font-[500] text-[22px]'><i class="ri-instagram-line"></i></a>
               </span>
           
               <span className='w-[40px] h-[40px]  mt-8 bg-[#2b2d33] p-1 rounded-[50px] cursor-pointer text-center'>
-                <a href='https://www.linkedin.com/in/safri-yandi-53ba911a5/' className='text-gray-300 font-[500] text-[25px]'><i class="ri-linkedlin-box-line"></i></a>
+                <a href='https://www.linkedin.com/in/safri-yandi-53ba911a5/' className='text-gray-300 font-[500] text-[22px]'><i class="ri-linkedlin-box-line"></i></a>
               </span>
             </div>
           </div>

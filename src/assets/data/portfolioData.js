@@ -2,6 +2,8 @@ import portfolioImg01 from "../images/simdes.png";
 import portfolioImg02 from "../images/mitrabumdes.png";
 import portfolioImg03 from "../images/appspyd.png";
 import portfolioImg04 from "../images/paybis.png";
+import portfolioImg05 from "../images/EIS.png";
+import portfolioImg06 from "../images/webdesa.png";
 // import portfolioImg05 from "../images/portfolio-05.jpg";
 // import portfolioImg06 from "../images/portfolio-06.jpg";
 // import portfolioImg07 from "../images/portfolio-07.jpg";
@@ -18,16 +20,16 @@ const portfolios = [
     siteUrl: "https://play.google.com/store/apps/details?id=com.simpeldesa&hl=id&gl=US&pli=1",
    
   },
-  // {
-  //   id: "02",
-  //   imgUrl: portfolioImg04,
-  //   category: "QA Engineer",
-  //   title: "Paydia Bisnis",
-  //   description:
-  //     "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-  //   technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-  //   siteUrl: "#",
-  // },
+  {
+    id: "02",
+    imgUrl: portfolioImg05,
+    category: "QA Engineer",
+    title: "EIS",
+    description:
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
+    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
+    siteUrl: "http://saha-center.id/manage/login",
+  },
   {
     id: "03",
     imgUrl: portfolioImg02,
@@ -38,16 +40,16 @@ const portfolios = [
     technologies: ["Flutter", "Tailwind css", "PHP Django", "MongoDB"],
     siteUrl: "https://play.google.com/store/apps/details?id=com.bumdes",
   },
-  // {
-  //   id: "04",
-  //   imgUrl: portfolioImg05,
-  //   category: "Web Design",
-  //   title: "Landing Page",
-  //   description:
-  //     "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-  //   technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-  //   siteUrl: "#",
-  // },
+  {
+    id: "04",
+    imgUrl: portfolioImg06,
+    category: "Product Manager",
+    title: "Website Desa",
+    description:
+      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
+    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
+    siteUrl: "https://www.linkedin.com/in/safri-yandi-53ba911a5/",
+  },
   // {
   //   id: "05",
   //   imgUrl: portfolioImg03,
