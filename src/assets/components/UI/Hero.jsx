@@ -44,7 +44,10 @@ const Hero = () => {
 
                         <p data-aos='fade-left' data-aos-duration='1500' className='flex gap-2 text-headingColor mt-12 font-[500] text-[15px] leading-7 sm:pl-14 sm:pr-10'>
                             <span class='ri-apps-2-line'></span>
-                            <b>Saya seorang Mahasiswa Sistem Informasi di Universitas Terbuka. saya seorang pekerja keras dan bersungguh-sungguh dalam tantangan pekerjaan. Saya memiliki motivasi yang kuat dan terbiasa untuk berkomunikasi dengan semua orang. Saya juga cepat untuk belajar hal baru, cepat beradaptasi, menerima perbedaan dan bisa bekerja tim dengan baik </b>
+                            <b>I am a Student from Information System at Indonesia Open University, also I am a hard 
+                                worker and enthusiastic about challenging work. I have strong personal motivation and able 
+                                to communicate with all people levels. I am quick learning new things, adaptable to new 
+                                environments and open toward differences, and love working as a team</b>
                             {/* <b>I am a Student from Information System at Indonesia Open University, also I am a hard 
                                 worker and enthusiastic about challenging work. I have strong personal motivation and able 
                                 to communicate with all people levels. I am quick learning new things, adaptable to new 
