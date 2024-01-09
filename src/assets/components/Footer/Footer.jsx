@@ -25,8 +25,9 @@ const Footer = () => {
 
           <div className='w-full sm:w-1/2'>
             <p className='text-gray-300 leading-7 mt-4 sm:mt-0 text-[20px]'>
-              "Saya bukanlah Orang hebat yang tahu segalanya, tetapi saya memiliki kemauan untuk belajar dan memecahkan masalah yang sulit karna kata pepatah bahwa,
-              Ilmu yang hebat terdapat dari pengalaman yang kuat"
+              " Im not perfect person who knows everything, but i have strong enthusiastic for learn more and more. And i always try very hard for problem solving and last but not least, You never knows the result if you never try! "
+              {/* Saya bukanlah Orang hebat yang tahu segalanya, tetapi saya memiliki kemauan untuk belajar dan memecahkan masalah yang sulit karna kata pepatah bahwa,
+              Ilmu yang hebat terdapat dari pengalaman yang kuat" */}
             </p>
 
             <div className='flex items-center gap-4 flex-wrap md:gap-8'>

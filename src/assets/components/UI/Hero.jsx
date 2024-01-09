@@ -11,6 +11,7 @@ import qaa from '../../images/qaa.png';
 
 
 import CountUp from 'react-countup';
+import { unstable_HistoryRouter } from 'react-router-dom';
 
 
 const Hero = () => {
