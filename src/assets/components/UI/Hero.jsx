@@ -54,7 +54,7 @@ const Hero = () => {
                                 environments and open toward differences, and love working as a team.</b> */}
                         </p>
                         <div className='flex items-center gap-9 mt-14'>
-                            <span className='text-smallTextColor text-[20px] font-[600]'>Kenali saya lebih dalam</span>
+                            <span className='text-smallTextColor text-[20px] font-[600]'>Lets connected with me!</span>
                             <span><a title='instagram' target='_blank' href='https://instagram.com/sfrynd' className='text-smallTextColor text-[25px] font-[600]'><i class="ri-instagram-fill"></i></a></span>
                             <span><a title='LinkedIn' target='_blank' href='https://www.linkedin.com/in/safri-yandi-53ba911a5/' className='text-smallTextColor text-[25px] font-[600]'><i class='ri-linkedin-box-fill'></i></a></span>
                         </div>

@@ -9,7 +9,7 @@ const Footer = () => {
         <div className='sm:flex items-center justify-between md:gap-8'>
           <div className='w-full sm:w-1/2'>
             <h2 className='text-[26px] leading-10 mb-6 text-white font-[600] md:text-[2rem]'>
-              Ingin menawarkan peluang untuk saya?
+              Wanna offer opportunity for me?
             </h2>
             <a href='#contact'>
             <button className='flex items-center gap-2 text-white font-[600] border border-solid
@@ -31,7 +31,7 @@ const Footer = () => {
 
             <div className='flex items-center gap-4 flex-wrap md:gap-8'>
               <span className='text-gray-300 mt-8 font-[600] text-[20px]'>
-                Kenali saya lebih dalam
+                Lets connected with me!
               </span>
 
               <span className='w-[40px] h-[40px]  mt-8 bg-[#2b2d33] p-1 rounded-[50px] cursor-pointer text-center'>

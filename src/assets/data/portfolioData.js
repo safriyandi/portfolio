@@ -48,7 +48,7 @@ const portfolios = [
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
     technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-    siteUrl: "https://www.linkedin.com/in/safri-yandi-53ba911a5/",
+    siteUrl: "https://prnt.sc/8IsgUAS05xCv",
   },
   // {
   //   id: "05",
