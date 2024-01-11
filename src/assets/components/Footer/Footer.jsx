@@ -9,7 +9,7 @@ const Footer = () => {
         <div className='sm:flex items-center justify-between md:gap-8'>
           <div className='w-full sm:w-1/2'>
             <h2 className='text-[26px] leading-10 mb-6 text-white font-[600] md:text-[2rem]'>
-              Wanna offer opportunity for me?
+              Wanna offer opportunity for me? 
             </h2>
             <a href='#contact'>
             <button className='flex items-center gap-2 text-white font-[600] border border-solid
@@ -54,7 +54,7 @@ const Footer = () => {
             <div className='hidden sm:block'>
               <div className='flex items-center gap-[10px]'>
                 <span className='w-[35px] h-[35px]  bg-white text-black text-[18px] font-[500]
-                     rounded-full flex items-center justify-center'>S</span>
+                     rounded-full flex items-center justify-center'>$</span>
 
                 <div className='leading-[20px]'>
                   <h2 className='text-xl text-white font-[700]'>Safri Yandi</h2>

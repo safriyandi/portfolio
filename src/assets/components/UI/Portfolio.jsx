@@ -79,7 +79,7 @@ const Portfolio = () => {
                     {nextItems < portfolios.length && data.length > 3 && (
                         <button onClick={loadMoreHandler}
                             className='bg-smallTextColor bg-black text-white font-[500] gap-2 hover:bg-smallTextColor
-                     ease-in duration-100 py-2 px-4 rounded-[8px]'>Load More</button>
+                     ease-in duration-100 py-2 px-4 rounded-[8px]'>Load More!</button>
                     )}
                 </div>
             </div>
