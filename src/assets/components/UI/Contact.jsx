@@ -43,7 +43,7 @@ const Contact = () => {
                             </div>
 
                             <button type='submit' className='w-full p-3 focus:outline-none rounded-[5px] bg-smallTextColor text-white hover:bg-headingColortext-center ease-linear duration-150'>
-                                SEND MESSAGE!
+                                SEND MESSAGE!!
                             </button>
                         </form>
                     </div>
