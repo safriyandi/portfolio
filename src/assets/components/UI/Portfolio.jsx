@@ -68,7 +68,7 @@ const Portfolio = () => {
                                 <div className='w-full h-full bg-primaryColor bg-opacity-40 absolute top-0 left-0 z-[5] hidden group-hover:block'>
                                     <div className='w-full h-full flex items-center justify-center'>
                                         <button className='text-white bg-headingColor hover:bg-smallTextColor py-2 px-4 rounded-[8px] 
-                                        font-[500] ease-in duration-200'>  <a target='_blank' href = { portfolio.siteUrl && portfolio.siteUrl}> Details </a> </button></div>
+                                        font-[500] ease-in duration-200'>  <a target='_blank' href = { portfolio.siteUrl && portfolio.siteUrl}> CLICK HERE! </a> </button></div>
                                 </div>
                             </div>
                         ))
@@ -79,7 +79,7 @@ const Portfolio = () => {
                     {nextItems < portfolios.length && data.length > 3 && (
                         <button onClick={loadMoreHandler}
                             className='bg-smallTextColor bg-black text-white font-[500] gap-2 hover:bg-smallTextColor
-                     ease-in duration-100 py-2 px-4 rounded-[8px]'>Load More!</button>
+                     ease-in duration-100 py-2 px-4 rounded-[8px]'>See More!</button>
                     )}
                 </div>
             </div>
