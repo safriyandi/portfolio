@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.8fe49152.css",
-    "main.js": "/static/js/main.89886037.js",
+    "main.js": "/static/js/main.e990da36.js",
     "static/media/remixicon.svg?t=1702216974873": "/static/media/remixicon.a893a09db081c33b6f37.svg",
     "static/media/paybis.png": "/static/media/paybis.e86cf89794f5a6bc84a3.png",
     "static/media/appspyd.png": "/static/media/appspyd.91714bd73af53f423e91.png",
@@ -24,10 +24,10 @@
     "static/media/postman.png": "/static/media/postman.21fb7cb66071932d343b.png",
     "index.html": "/index.html",
     "main.8fe49152.css.map": "/static/css/main.8fe49152.css.map",
-    "main.89886037.js.map": "/static/js/main.89886037.js.map"
+    "main.e990da36.js.map": "/static/js/main.e990da36.js.map"
   },
   "entrypoints": [
     "static/css/main.8fe49152.css",
-    "static/js/main.89886037.js"
+    "static/js/main.e990da36.js"
   ]
 }
