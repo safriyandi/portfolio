@@ -42,7 +42,9 @@ const Footer = () => {
               <span className='w-[40px] h-[40px] mt-8 bg-[#f0ebeb] p-1 rounded-[50px] cursor-pointer text-center'>
                 <a href='https://www.linkedin.com/in/safri-yandi-53ba911a5/' className='text-gray-300 font-[500] text-[22px]'><i class="ri-linkedin-box-fill"></i></a>
               </span>
-
+              <span className='w-[40px] h-[40px] mt-8 bg-[#f0ebeb] p-1 rounded-[50px] cursor-pointer text-center'>
+                <a href='https://twitter.com/sfrynd'  className='text-gray-300 font-[500] text-[22px]'><i class="ri-twitter-fill"></i></a>
+                </span>
             </div>
           </div>
         </div>
