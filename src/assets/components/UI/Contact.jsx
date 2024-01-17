@@ -12,14 +12,24 @@ const Contact = () => {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        console.log("Form Data:", form.current);
-
-        emailsjs.sendForm('service_m1godfi', 'template_ciykrvs', form.current, '9MSSiray99VIT2MpN')
+        emailsjs
+            .sendForm('service_m1godfi', 'template_ciykrvs', form.current, '9MSSiray99VIT2MpN')
             .then((result) => {
                 console.log("Email sent successfully:", result.text);
+                // Show a pop-up message after successful submission
+                alert("Thank you for sending the message! I will contact you shortly.");
+
+                // Reset the form data after submission
+                setFormData({
+                    user_name: '',
+                    user_email: '',
+                    message: ''
+                });
             })
             .catch((error) => {
                 console.log("Email sending failed:", error.text);
+                // Show a pop-up message in case of an error
+                alert("Oops! Something went wrong. Please try again later.");
             });
     };
 
