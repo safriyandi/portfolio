@@ -20,7 +20,7 @@ import manual from '../../images/manual.jpg';
 // icon({name: 'twitter', family: 'classic', style: 'brands'})
 
 // // 'classic' is the default family, you can leave that off
-// icon({name: 'user', style: 'solid'})
+// icon({name: 'user', style: 'solid'}) 
 // icon({name: 'user', style: 'regular'})
 // icon({name: 'twitter', style: 'brands'})
 
@@ -36,7 +36,7 @@ import manual from '../../images/manual.jpg';
 //   'fontawesome-svg-core': {
 //     'license': 'free'
 //   }
-// }
+// } this mododule for what bitch?? can i know for whats this fucking module?
 
 const Services = () => {
     return (

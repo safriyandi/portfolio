@@ -22,7 +22,7 @@ const Hero = () => {
        
     }, [window.onload])
   
-    return (
+    return ( 
         <section className='pt-0' id='about'>
             <div className='container pt-14'>
                 <div className='md:flex items-center justify-between sm:flex-col md:flex-row'>
