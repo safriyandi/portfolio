@@ -9,7 +9,7 @@ const Footer = () => {
         <div className='sm:flex items-center justify-between md:gap-8'>
           <div className='w-full sm:w-1/2'>
             <h2 className='text-[26px] leading-10 mb-6 text-white font-[600] md:text-[2rem]'>
-              Wanna offer opportunity for me? 
+              Wanna offer new opportunity for me? 
             </h2>
             <a href='#contact'>
             <button className='flex items-center gap-2 text-white font-[600] border border-solid
