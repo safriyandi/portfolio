@@ -17,7 +17,7 @@ const portfolios = [
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
     technologies: ["React Native", "Bootstrap css", "PHP DJango", "MongoDB"],
-    siteUrl: "https://play.google.com/store/apps/details?id=com.simpeldesa&hl=id&gl=US&pli=1",
+    siteUrl: "https://medium.com/@safriyandi932/nurturing-products-a-product-managers-tale-24bfb560fc51",
    
   },
   {
@@ -28,7 +28,7 @@ const portfolios = [
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
     technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-    siteUrl: "http://saha-center.id/manage/login",
+    siteUrl: "https://medium.com/@safriyandi932/navigating-quality-a-freelance-qa-testers-55748be9b044",
   },
   {
     id: "03",
@@ -38,7 +38,7 @@ const portfolios = [
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
     technologies: ["Flutter", "Tailwind css", "PHP Django", "MongoDB"],
-    siteUrl: "https://play.google.com/store/apps/details?id=com.bumdes",
+    siteUrl: "https://medium.com/@safriyandi932/nurturing-products-a-product-managers-tale-24bfb560fc51",
   },
   {
     id: "04",
@@ -48,7 +48,7 @@ const portfolios = [
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
     technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-    siteUrl: "https://prnt.sc/8IsgUAS05xCv",
+    siteUrl: "https://medium.com/@safriyandi932/crafting-digital-horizons-a-continuing-journey-as-a-product-manager-6ad8e883ea52",
   },
   // {
   //   id: "05",
@@ -120,7 +120,7 @@ const portfolios = [
        temporibus dignissimos atque repellendus amet a velit. Dolorem 
        quidem animi doloribus saepe!`,
     technologies: ["React", "Tailwind css", "PHP", "MySQLDB"],
-    siteUrl: "https://play.google.com/store/apps/details?id=id.paydia.app&hl=id-ID",
+    siteUrl: "https://medium.com/@safriyandi932/elevating-quality-journey-as-a-qa-engineer-at-paydia-indonesia-d23f0de8bc2e",
   },
   {
     id: "11",
@@ -133,7 +133,7 @@ const portfolios = [
       temporibus dignissimos atque repellendus amet a velit. Dolorem quidem 
       animi doloribus saepe!`,
     technologies: ["React", "Tailwind css", "PHP & Node", "MySQLDB"],
-    siteUrl: "https://paydia.id/",
+    siteUrl: "https://medium.com/@safriyandi932/elevating-quality-journey-as-a-qa-engineer-at-paydia-indonesia-d23f0de8bc2e",
   },
   // {
   //   id: "12",
