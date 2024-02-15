@@ -62,9 +62,9 @@ const Hero = () => {
                     {/* hero left end */}
 
                     {/* hero img */}
-                    {/* <div className='basis-1/3 mt-10 sm:mt-0'>
+                    <div className='basis-1/3 mt-10 sm:mt-0'>
                         <figure className='flex items-center justify-center '><img src={ppp} alt='' /></figure>
-                    </div> */}
+                    </div>
                     {/* hero img end */}
 
                     {/* hero image content right */}
@@ -76,7 +76,7 @@ const Hero = () => {
                                     <img src={pmm} alt="pmm" className='w-full h-full object-cover' />
                                 </a>
                             </span>
-                            <CountUp className='text-headingColor font-[600] bold text-[20px]' start={0} end={70} duration={3} suffix='%' />
+                            <CountUp className='text-headingColor font-[600] bold text-[20px]' start={0} end={85} duration={3} suffix='%' />
                         </div>
                         <div className='mb-10 flex items-center'>
                             <span className='w-[150px] h-[150px] flex items-center justify-center mr-8'>
@@ -84,7 +84,7 @@ const Hero = () => {
                                     <img src={qaa} alt="qaa" className='w-full h-full object-cover' />
                                 </a>
                             </span>
-                            <CountUp className='text-headingColor font-[600] bold text-[20px]' start={0} end={60} duration={3} suffix='%' />
+                            <CountUp className='text-headingColor font-[600] bold text-[20px]' start={0} end={80} duration={3} suffix='%' />
                         </div>
                     </div>
                 </div>
