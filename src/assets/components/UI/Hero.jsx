@@ -62,9 +62,9 @@ const Hero = () => {
                     {/* hero left end */}
 
                     {/* hero img */}
-                    <div className='basis-1/3 mt-10 sm:mt-0'>
+                    {/* <div className='basis-1/3 mt-10 sm:mt-0'>
                         <figure className='flex items-center justify-center '><img src={ppp} alt='' /></figure>
-                    </div>
+                    </div> */}
                     {/* hero img end */}
 
                     {/* hero image content right */}
