@@ -86,7 +86,7 @@ const Services = () => {
                                         <div className='w-full sm:w-1/2 sm:pl-8'>
                                             <div data-aos='fade-left' data-aos-duration='1200' className='bg-white p-4 rounded group shadow 
                                         cursor-pointer ease-in duration-150'>
-                                                 <h3 className='flex items-center text-[20px] '><img className='h-[40px] w-[40px] items-center ml-1 mr-5' src={html}></img>SQL Injection with SQLMAP</h3>
+                                                 <h3 className='flex items-center text-[20px] '><img className='h-[40px] w-[40px] items-center ml-1 mr-5' src={html}></img>DB Management</h3>
                                             </div>
                                         </div>
                                     </div>

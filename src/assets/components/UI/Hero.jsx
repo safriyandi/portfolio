@@ -33,7 +33,7 @@ const Hero = () => {
                         </h5>
 
                         <h1 data-aos='fade-right' data-aos-duration='1500' className='text-headingColor font-[800]
-                        text-[1.8rem] sm-text[40px] leading-[35px] sm:leading-[46px] mt-5'>I'm Safri Yandi <br /> Software QA Engineer
+                        text-[1.8rem] sm-text[40px] leading-[35px] sm:leading-[46px] mt-5'>I'm Safri Yandi 
                         </h1>
 
                         <div data-aos='fade-right' data-aos-duration='1500' data-aos-delay='150' className='flex items-center gap-6 mt-7'>
@@ -45,7 +45,7 @@ const Hero = () => {
 
                         <p data-aos='fade-left' data-aos-duration='1500' className='flex gap-2 text-headingColor mt-12 font-[500] text-[15px] leading-7 sm:pl-14 sm:pr-10'>
                             <span class='ri-apps-2-line'></span>
-                            <b>I am currently holding two job positions. From 8 to 5 every weekdays, i work as SQA Engineer. Additionally, I work as a Freelance Product Manager after my regular working hours. Im a hard worker and enthusiastic about challenging work. I have strong personal motivation and able 
+                            <b>I am currently work as QA Automation Lead at MSIG Life Assurance. Additionally, I work as a Freelance Product Manager after my regular working hours, but sometime i do open for QA Manual and Automation also. Im a hard worker and enthusiastic about challenging work. I have strong personal motivation and able 
                                 to communicate with all people levels. Last but not least, I am quick learning new things, adaptable to new 
                                 environments and open toward differences, and love working as a team</b>
                             {/* <b>I am a Student from Information System at Indonesia Open University, also I am a hard 
@@ -56,15 +56,15 @@ const Hero = () => {
                         <div className='flex items-center gap-9 mt-14'>
                             <span className='text-smallTextColor text-[20px] font-[600]'>Lets connected with me!</span>
                             <span><a title='instagram' target='_blank' href='https://instagram.com/sfrynd' className='text-smallTextColor text-[25px] font-[600]'><i class="ri-instagram-fill"></i></a></span>
-                            <span><a title='LinkedIn' target='_blank' href='https://www.linkedin.com/in/safri-yandi-53ba911a5/' className='text-smallTextColor text-[25px] font-[600]'><i class='ri-linkedin-box-fill'></i></a></span>
+                            <span><a title='LinkedIn' target='_blank' href='https://www.linkedin.com/in/sfrynd/' className='text-smallTextColor text-[25px] font-[600]'><i class='ri-linkedin-box-fill'></i></a></span>
                         </div>
                     </div>
                     {/* hero left end */}
 
                     {/* hero img */}
-                    {/* <div className='basis-1/3 mt-10 sm:mt-0'>
+                    <div className='basis-1/3 mt-10 sm:mt-0'>
                         <figure className='flex items-center justify-center '><img src={ppp} alt='' /></figure>
-                    </div> */}
+                    </div>
                     {/* hero img end */}
 
                     {/* hero image content right */}
@@ -84,7 +84,7 @@ const Hero = () => {
                                     <img src={qaa} alt="qaa" className='w-full h-full object-cover' />
                                 </a>
                             </span>
-                            <CountUp className='text-headingColor font-[600] bold text-[20px]' start={0} end={80} duration={3} suffix='%' />
+                            <CountUp className='text-headingColor font-[600] bold text-[20px]' start={0} end={95} duration={3} suffix='%' />
                         </div>
                     </div>
                 </div>
