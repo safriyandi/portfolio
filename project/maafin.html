@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Permintaan Maaf</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      background: linear-gradient(135deg, #ffafbd, #ffc3a0);
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+      color: #4a2c37;
+      user-select: none;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+
+    #message {
+      font-size: 2rem;
+      font-weight: 600;
+      padding: 0 1rem;
+      max-width: 90vw;
+      text-align: center;
+      line-height: 1.4;
+      animation: fadeIn 1.2s ease forwards;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px);}
+      to { opacity: 1; transform: translateY(0);}
+    }
+
+    /* Modal overlay */
+    #modalOverlay {
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background-color: rgba(0,0,0,0.5);
+      display: none;
+      justify-content: center;
+      align-items: center;
+      z-index: 999;
+    }
+
+    /* Modal box */
+    #modal {
+      background: #fff;
+      border-radius: 16px;
+      padding: 2rem 3rem;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+      text-align: center;
+      width: 320px;
+      max-width: 90vw;
+      position: relative;
+      user-select: none;
+      cursor: default;
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+
+    #modal h2 {
+      margin: 0;
+      color: #d6336c;
+      font-weight: 700;
+      font-size: 1.8rem;
+    }
+
+    .btn-container {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+    }
+
+    button {
+      cursor: pointer;
+      border: none;
+      border-radius: 12px;
+      padding: 0.75rem 2.2rem;
+      font-size: 1.1rem;
+      font-weight: 600;
+      transition: background-color 0.3s ease;
+      user-select: none;
+      box-shadow: 0 4px 12px rgba(214,51,108,0.3);
+      color: white;
+    }
+
+    #btnMaafin {
+      background-color: #d6336c;
+    }
+
+    #btnMaafin:hover {
+      background-color: #b02a56;
+    }
+
+    #btnGamau {
+      background-color: #aaa;
+      color: #444;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    #btnGamau:hover {
+      background-color: #888;
+    }
+
+    #btnJawab {
+      background-color: #6c757d;
+      padding: 1rem 3rem;
+      font-size: 1.2rem;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(108, 117, 125, 0.4);
+    }
+
+    #btnJawab:hover {
+      background-color: #5a6268;
+    }
+
+    /* Custom alert box */
+    #thankYouModal {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: #d6336c;
+      color: white;
+      padding: 2rem 3rem;
+      border-radius: 20px;
+      box-shadow: 0 8px 30px rgba(214,51,108,0.6);
+      font-size: 1.6rem;
+      font-weight: 700;
+      z-index: 1000;
+      display: none;
+      user-select: none;
+      text-align: center;
+      max-width: 90vw;
+    }
+
+    /* Hide audio player */
+    audio#bgMusic {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <div id="message">Aku cinta kamu, aku sayang kamu 💖</div>
+  <button id="btnJawab">Jawab</button>
+
+  <div id="modalOverlay">
+    <div id="modal">
+      <h2>Maaafin aku ya sayang?</h2>
+      <div class="btn-container">
+        <button id="btnMaafin">Maafin</button>
+        <button id="btnGamau">Gamau</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="thankYouModal">Terimakasih sudah maafin aku, I love u ❤️</div>
+
+  <audio id="bgMusic" loop>
+    <source src="mangu.mp3" type="audio/mpeg" />
+    Browsermu tidak support audio element ini.
+  </audio>
+
+  <script>
+    const messageDiv = document.getElementById('message');
+    const modalOverlay = document.getElementById('modalOverlay');
+    const modal = document.getElementById('modal');
+    const btnMaafin = document.getElementById('btnMaafin');
+    const btnGamau = document.getElementById('btnGamau');
+    const thankYouModal = document.getElementById('thankYouModal');
+    const btnJawab = document.getElementById('btnJawab');
+    const bgMusic = document.getElementById('bgMusic');
+
+    btnJawab.addEventListener('click', () => {
+      // sembunyikan tombol jawab & pesan utama
+      btnJawab.style.display = 'none';
+      messageDiv.style.display = 'none';
+
+      // tampilkan modal
+      modalOverlay.style.display = 'flex';
+      modal.style.position = 'relative';
+      modal.style.top = '0px';
+      modal.style.left = '0px';
+
+      // play musik
+      bgMusic.play().catch(() => {
+        console.log('Audio gagal play otomatis.');
+      });
+    });
+
+    // Fungsi untuk mengacak posisi modal dalam overlay
+    function moveModalRandom() {
+      const overlayRect = modalOverlay.getBoundingClientRect();
+      const modalRect = modal.getBoundingClientRect();
+
+      const maxX = overlayRect.width - modalRect.width;
+      const maxY = overlayRect.height - modalRect.height;
+
+      const randX = Math.floor(Math.random() * maxX);
+      const randY = Math.floor(Math.random() * maxY);
+
+      modal.style.position = 'absolute';
+      modal.style.left = randX + 'px';
+      modal.style.top = randY + 'px';
+    }
+
+    btnGamau.addEventListener('click', () => {
+      moveModalRandom();
+    });
+
+    btnMaafin.addEventListener('click', () => {
+      modalOverlay.style.display = 'none';
+      thankYouModal.style.display = 'block';
+    });
+
+    thankYouModal.addEventListener('click', () => {
+      thankYouModal.style.display = 'none';
+    });
+  </script>
+</body>
+</html>
