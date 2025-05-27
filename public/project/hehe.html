@@ -215,9 +215,23 @@
       modal.style.top = randY + 'px';
     }
 
-    btnGamau.addEventListener('click', () => {
+    // Hover (desktop)
+    btnGamau.addEventListener('mouseenter', () => {
+    moveModalRandom();
+    });
+
+    // Click (semua device)
+    btnGamau.addEventListener('click', (e) => {
+      e.preventDefault(); // biar gak langsung trigger click default
       moveModalRandom();
     });
+
+    // Sentuh (mobile)
+    btnGamau.addEventListener('touchstart', (e) => {
+      e.preventDefault();
+      moveModalRandom();
+    });
+
 
     btnMaafin.addEventListener('click', () => {
       modalOverlay.style.display = 'none';
