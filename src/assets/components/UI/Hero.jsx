@@ -45,7 +45,7 @@ const Hero = () => {
 
                         <p data-aos='fade-left' data-aos-duration='1500' className='flex gap-2 text-headingColor mt-12 font-[500] text-[15px] leading-7 sm:pl-14 sm:pr-10'>
                             <span class='ri-apps-2-line'></span>
-                            <b>I have over 5 years of experience,  currently work as QA Automation Lead at MSIG Life Assurance. Additionally, I work as a Freelance Product Manager after my regular working hours, but sometime i do open for QA Manual and Automation also. Im a hard worker and enthusiastic about challenging work. I have strong personal motivation and able 
+                            <b>I have over 5 years of experience,  currently work as QA Automation at MSIG Life Assurance. Additionally, I work as a Freelance Product Manager after my regular working hours, but sometime i do open for QA Manual and Automation also. Im a hard worker and enthusiastic about challenging work. I have strong personal motivation and able 
                                 to communicate with all people levels. Last but not least, I am quick learning new things, adaptable to new 
                                 environments and open toward differences, and love working as a team</b>
                             {/* <b>I am a Student from Information System at Indonesia Open University, also I am a hard 
